@@ -6,11 +6,15 @@ namespace Homerseklet
 {
     public class homersekletAtvalto
     {
-        public double Celsius { get; set; }
+        public double Celsius;
 
-        public static double toFarenheit(double Celsius)
+        public double toFarenheit()
         {
-            return Celsius = Celsius * 9 / 2 + 32;
+            return  (Celsius * 9 / 5) + 32;
+        }
+        public static double CelsiusToFarenheit(double kapott)
+        {
+            return (kapott * 9 / 5) + 32;
         }
     }
 }

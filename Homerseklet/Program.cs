@@ -1,14 +1,9 @@
 ﻿using System;
+using Homerseklet;
 
-namespace Homerseklet
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Atvalto atvalto = new Atvalto();
+homersekletAtvalto peldany = new homersekletAtvalto();
+peldany.Celsius = 25;
+Console.WriteLine(peldany.toFarenheit());
 
-
-        }
-    }
-}
+double kapott = 30;
+Console.WriteLine(homersekletAtvalto.CelsiusToFarenheit(kapott));
