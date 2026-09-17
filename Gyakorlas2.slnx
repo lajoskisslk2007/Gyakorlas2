@@ -1,4 +1,6 @@
 <Solution>
+  <Project Path="DiakApp/DiakApp.csproj" Id="eff019e1-1050-4887-af03-2037ea7a266f" />
   <Project Path="Filmapp/Filmapp.csproj" Id="89317a98-d60e-4dee-813d-d60c51bad88e" />
   <Project Path="Homerseklet/Homerseklet.csproj" Id="c3c60dee-1b8e-4e03-ac36-9a886eb25133" />
+  <Project Path="KavefozogepApp/KavefozogepApp.csproj" Id="23142d06-a738-4975-b774-c3e175797279" />
 </Solution>
