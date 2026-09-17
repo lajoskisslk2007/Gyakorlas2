@@ -8,18 +8,27 @@ namespace KavefozogepApp
     {
         private int vizKeszletMl;
 
-        public static int Viztolt(int ml)
+        public void  VizTolt(int ml)
         {
-            if(ml>0)
+            if (ml < 0)
             {
-                return ml;
+                ml += 0;
+                Console.WriteLine("hiba");
+            }
+            else
+            {
+                vizKeszletMl += ml;
             }
         }
-        public  int KaveFozes()
+        public  void KaveFozes()
         {
-            if (vizKeszletMl==150)
+            if (vizKeszletMl>=150)
             {
-                return vizKeszletMl - 150;
+                vizKeszletMl -= 150;
+            }
+            else
+            {
+                Console.WriteLine("Nem áll rendelkezésre elég víz");
             }
         }
 
