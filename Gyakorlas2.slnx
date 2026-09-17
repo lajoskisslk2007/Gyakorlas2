@@ -1,1 +1,4 @@
-<Solution />
+<Solution>
+  <Project Path="Filmapp/Filmapp.csproj" Id="89317a98-d60e-4dee-813d-d60c51bad88e" />
+  <Project Path="Homerseklet/Homerseklet.csproj" Id="c3c60dee-1b8e-4e03-ac36-9a886eb25133" />
+</Solution>
